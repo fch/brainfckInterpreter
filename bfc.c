@@ -94,8 +94,6 @@ void interpret_bf_src(char c[], int file_length){
 	Tape *tape = new_tape();
 	tape->current = new_cell(NULL, 0, 0);
 
-	// DEBUG printf("%c", (tape->current->value) + 60);
-
 	int i = 0;
 
 	// test for any bf relevant char
@@ -105,7 +103,6 @@ void interpret_bf_src(char c[], int file_length){
 
 			case '+':
 				tape->current->value++;
-				// DEBUG printf("%c", tape->current->value);
 				break;
 			case '-':
 				if(tape->current->value > 0){
