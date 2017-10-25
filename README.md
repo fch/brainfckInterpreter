@@ -13,3 +13,5 @@ into a direction, like this little guy:
 +[>+]
 ```
 can blow up memory consumption! Handle with care!
+
+Brainfuck reference: https://en.wikipedia.org/wiki/Brainfuck
