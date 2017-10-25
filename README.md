@@ -1,5 +1,5 @@
 # brainfckInterpreter
-Very basic interpreter
+Very basic interpreter for the - actually turing-complete! - brainfuck language.
 
 Feel free to give ideas, tips and constructive critique for improvement.
 
